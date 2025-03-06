@@ -48,7 +48,7 @@ class HandleInertiaRequests extends Middleware
             ],
             'csrf_token' => csrf_token(),
             'can' => [
-                'access_admin' => auth()->user()->can('access-admin', User::class)
+                'access_admin' => auth()->user()?->can('access-admin', User::class)
             ]
         ];
     }

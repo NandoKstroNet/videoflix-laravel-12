@@ -12,6 +12,7 @@
     "devDependencies": {
         "@eslint/js": "^9.19.0",
         "@mux/upchunk": "^3.5.0",
+        "@stripe/stripe-js": "^5.9.2",
         "@types/node": "^22.13.5",
         "@vue/eslint-config-typescript": "^14.3.0",
         "axios": "^1.8.1",
